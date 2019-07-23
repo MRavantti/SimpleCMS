@@ -1,0 +1,13 @@
+﻿USE SimpleCms
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[CMSPage2](
+	[Title] [nchar](100) NULL,
+	[Text] [nvarchar](max) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+
